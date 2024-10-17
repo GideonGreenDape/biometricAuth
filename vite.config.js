@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       // Map 'WebSdk' to the global object or a no-op
-      'WebSdk': path.resolve(__dirname, '/modules/WebSdk/index.js'),
+      'WebSdk': path.resolve(__dirname, '/modules/WebSdk'),
     },
   },
   build: {
