@@ -1,12 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
       // Map 'WebSdk' to the global object or a no-op
-      'WebSdk': '/src/modules/WebSdk'
+      'WebSdk': path.resolve(__dirname, 'src/modules/WebSdk'),
     },
   },
   build: {
