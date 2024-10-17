@@ -5,7 +5,7 @@
  * Copyright 2010-2014 Caolan McMahon
  * Released under the MIT license
  */
-;(function () {
+(function () {
 
     var async = {};
     function noop() {}
