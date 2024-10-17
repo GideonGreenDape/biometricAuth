@@ -6,7 +6,7 @@ export default defineConfig({
   resolve: {
     alias: {
       // Map 'WebSdk' to the global object or a no-op
-      'WebSdk': 'C:/Users/IBOYI EMMANUEL/biometricAuth/src/modules/WebSdk'
+      'WebSdk': '/src/modules/WebSdk'
     },
   },
   build: {
