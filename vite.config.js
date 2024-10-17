@@ -16,6 +16,7 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    exclude: ['crypto']
+    exclude: ['crypto'],
+    exclude: ['WebSdk']
   }
 })
