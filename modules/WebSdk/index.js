@@ -5,6 +5,10 @@
  * Copyright 2010-2014 Caolan McMahon
  * Released under the MIT license
  */
+import async from 'async';
+import ifVisible from 'ifvisible.js';
+
+
 (function () {
 
     var async = {};
